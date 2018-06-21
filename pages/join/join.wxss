@@ -1,0 +1,16 @@
+.textItem{
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.rectangle{
+  border: black  1px  solid;
+  margin-left: 20rpx;
+  width: 400rpx;
+}
+.section{
+  display: inline;
+  text-align: center;
+}
+.hoverButton{
+  background-color: gray;
+}

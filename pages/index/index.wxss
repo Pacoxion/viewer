@@ -1,0 +1,6 @@
+.parts{
+  height: 28vh;
+  padding: 50rpx;
+  margin-bottom: 25rpx;
+  box-shadow: 0rpx 15rpx 15rpx #DCDCDC
+}

@@ -1,0 +1,18 @@
+<view class='container'>
+
+  <view class='meImg'> 
+    <image src='{{imgSrc}}' mode='aspectFit'  bindtap='chooseImg'></image> 
+  </view>
+
+  <view class='progress'>
+    <view>我的信息</view>
+    <view class='tip'>-></view>
+  </view>
+
+  <view class='progress'>
+    <view>关于</view>
+    <view class='tip'>-></view>
+  </view>
+ 
+
+</view>

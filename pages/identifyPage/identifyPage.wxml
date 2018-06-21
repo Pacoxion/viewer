@@ -1,0 +1,17 @@
+<view class='container' >
+  
+  <view wx:if="{{condition1}}">
+  <button  bindtap='toMe'>萌新入口</button>
+  <button bindtap='comfine'>部长入口</button>
+  </view>
+
+  <view wx:if="{{condition2}}">
+    <form bindsubmit="passCode">
+      <input class='passCode' name="passCode" placeholder='内测阶段请输入123456' type='number' password='true' maxlength='6'  />
+      <button form-type='submit' >提交</button>
+    </form>
+    <button class='back' bindtap='back' size='mini' >返回</button>
+  </view>
+
+</view>
+

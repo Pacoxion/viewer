@@ -1,0 +1,10 @@
+
+.detail{
+  display: flex;
+  justify-content: center;
+  color: #03ced2;
+}
+button{
+  background-color: #03ced2;
+  margin-top: 150rpx;
+}

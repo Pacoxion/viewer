@@ -1,0 +1,14 @@
+.box{
+  display: flex;
+  justify-content: space-around;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0rpx;
+}
+.accept{
+  
+  
+}

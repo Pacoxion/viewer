@@ -1,0 +1,23 @@
+
+
+  <view class='state' wx:for="{{[1,2,3,4]}}">
+    <view class='up'>
+      <view class='left'>
+        <image class='partIcon' src='/imgs/7.png' mode='aspectFit'></image>
+      </view>
+      <view class='mid'>
+        <view class='center'> {{picker}}</view>
+        <view>状态：</view>
+        <view class='detail'>简历投递成功</view> 
+      </view>
+      <view class='right'>
+        <image class='enterImg' src='/imgs/8.svg' mode='aspectFit'></image>
+      </view>
+    </view>
+    <view class='down'>
+      <progress percent='30' color='#00CED1' active='true' show-info='true'></progress >
+    </view>
+  </view>
+
+  <image class='toJoin' bindtap='toJoin' src='/imgs/5.png'></image>
+   

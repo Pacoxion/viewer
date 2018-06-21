@@ -1,0 +1,13 @@
+<view class='container'>
+  
+  <form bindsubmit='pass'>   
+    <view class='box' wx:for="{{[1,2,3,4,5,6,7]}}">
+      <checkbox>
+      <text>张三  18电气6班</text>
+      <text style='color:#03ced2;'>--></text>
+      </checkbox>
+    </view>
+    <button class='pass' form-type='submit'>通过</button>
+  </form>
+
+</view>

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    
+    "pages/identifyPage/identifyPage",
+    "pages/control/control",
+    "pages/progressing/progressing",
+    "pages/join/join",
+    "pages/me/me",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "面试君",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "部门推荐",
+        "iconPath": "imgs/2.png",
+        "selectedIconPath": "imgs/2.1.png"
+      },
+      {
+        "pagePath": "pages/progressing/progressing",
+        "text": "我的简历",
+        "iconPath": "imgs/1.png",
+        "selectedIconPath": "imgs/1.1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "imgs/4.png",
+        "selectedIconPath": "imgs/4.1.png"
+      }
+    ],
+    "selectedColor": "#00CED1"
+  }
+}

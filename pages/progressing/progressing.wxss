@@ -1,0 +1,42 @@
+
+.state{
+  height: 30vh;
+  padding: 10rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0rpx 15rpx 15rpx #DCDCDC;
+}
+.right{
+  margin-top: 50rpx;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.enterImg{
+   width: 100rpx;
+   height:100rpx;
+}
+.mid{
+  
+  margin-top: 70rpx;
+}
+.up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.partIcon{
+  width: 200rpx;
+  height: 200rpx;
+}
+.toJoin{
+   width: 100rpx;
+   height: 100rpx;
+   position: fixed;
+   right: 100rpx;
+   bottom: 50rpx;
+   box-shadow: 15rpx 15rpx 20rpx #888888;
+   background-color: white;
+}

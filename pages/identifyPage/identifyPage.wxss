@@ -1,0 +1,9 @@
+.back{
+  background-color: #03ced2;
+}
+.passCode{
+  border: 1rpx black solid;
+}
+button{
+  color: white;
+}
